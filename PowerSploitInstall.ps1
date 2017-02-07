@@ -2,7 +2,7 @@
 Remove-Module PowerSploit -ErrorAction SilentlyContinue
 # Download latest version
 $webclient = New-Object System.Net.WebClient
-$url = "https://github.com/PowerShellMafia/PowerSploit/archive/master.zip"
+$url = "https://github.com/opexxx/PowerSploit/archive/master.zip"
 Write-Host "Downloading latest version of PowerSploit from $url" -ForegroundColor Cyan
 $file = "$($env:TEMP)\PowerSploit.zip"
 $webclient.DownloadFile($url,$file)
